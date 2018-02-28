@@ -1,3 +1,4 @@
+
 // // Array of words
  var wordList = ["lebron", "jordan", "forward", "kristaps", "knicks", "warriors", "mavericks", "nets"];
 
@@ -77,7 +78,7 @@ function gameComplete() {
     // all letters guessed correct
     if (lettersinChosenWord.toString() == correctGuess.toString()) {
           winCount++;
-          alert("Yay! Good Job, Click okay to begin another game!");
+          alert("Yay! Good Job, Click okay to begin a new game!");
           document.getElementById("winCounter").innerHTML = winCount;
           startGame();
     }
