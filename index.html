@@ -1,0 +1,37 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NBA Hangman!</title>
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+     <script src="assets/javascript/game.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+
+</head>
+
+  <body>
+
+    <div class="wrapper">
+   <img src="assets/images/bball.jpg">
+       <p>Click any letter to begin</p>
+
+       <p id="wordBlanks">_ _ _ _ _ _ </p>
+
+      <div class="sizing">   
+       <p>
+        Letters Already Guessed:  <span id="wrongGuesses"></span><br>
+        Guesses Remaining: <span id="guessesLeft"> 9</span><br>
+        Wins: <span id="winCounter"> 0</span><br>
+        Losses: <span id="lossCounter"> 0</span></p>
+        </div>
+
+       <input name="refresh" type="button" value="New Game" onClick="location.reload()"> <!--new game button-->
+
+</div>
+ 
+
+</body>
+</html>
+    
+ 	
